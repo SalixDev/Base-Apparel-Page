@@ -16,6 +16,49 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+/* navbar */
+nav{
+    height: 10re;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    background-color:chartreuse;
+    padding: 2em 5em;
+
+}
+.logo{
+    background-image: url("/assets/images/logo.svg");
+    width: 180px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-color: violet;
+}
+
+/* body */
+.body-container{
+    background-color:khaki;
+    width: 60%;
+    height: 50%;
+    padding: 0 5em;
+    display: flex;
+    flex-direction: column;
+}
+.heading-1{
+    color: var(--desaturated-red);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    
+}
+.heading-2{
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    font-weight: 600;
+}
+.message{
+    color: var(--desaturated-red);
+}
 
 /* @media screen and (max-width: 736px) {
     
