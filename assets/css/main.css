@@ -21,6 +21,7 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+/* page */
 .page-container{
     background-image: linear-gradient(var(--white), var(--white-red));
     display: flex;
@@ -37,7 +38,7 @@
     height: 100%;
     max-width: 58%;
     background-repeat: no-repeat;
-    padding: 0 0 8.5em 0;
+    padding: 0 0 7em 0;
 }
 .background-right{
     background-image: url('/assets/images/hero-desktop.jpg');
@@ -91,9 +92,12 @@ nav{
     line-height: 2rem;
     padding: 1.4em 0em;
 }
+
+/* form */
 form{
     position: relative;
     width: 90%;
+    padding-bottom: 2em;
 }
 .email{
     border-radius: 60px;
@@ -132,6 +136,27 @@ form p{
     text-align: center;
     padding-top: 1em;
     display: none;
+}
+form .error-icon{
+    display:none;
+    position: absolute;
+    left:-33px;
+    top:15px;
+    display: none;
+}
+
+/* if email error */
+form.error{ 
+    padding-bottom: 0em;
+}
+form.error p{
+    display: block;
+}
+form.error .error-icon{
+    display: block;
+}
+form.error .email{
+    border: solid red 1px;
 }
 
 /* @media screen and (max-width: 736px) {

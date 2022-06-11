@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <div class="page-container">
-  <div class="background-left">
+  <div class="background-left" id="left-content" class="error">
       <nav>
         <div class="logo-container">
         <div class="logo"></div>
@@ -26,9 +26,10 @@
           Add your email below to stay up-to-date with announcements and our launch deals.
         </div>
       </div>
-      <form netlify>
-        <input class="email" type="text" name="email" placeholder="Email Address">
-          <button class="button" ><img src="/assets/images/icon-arrow.svg"/></button>
+      <form netlify id="form">
+        <input id="email" class="email" type="email" placeholder="Email Address">
+          <img class="error-icon" src="/assets/images/icon-error.svg">
+          <button class="button" type="submit"><img src="/assets/images/icon-arrow.svg"/></button>
         </input>
         <p>Please provide a valid email</p>
       </form>
@@ -43,4 +44,5 @@
     </p> -->
   </footer>
 </body>
+<script src="/assets/js/script.js"></script>
 </html>
