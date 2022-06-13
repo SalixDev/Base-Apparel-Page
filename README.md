@@ -16,7 +16,13 @@ Users are able to:
 
 - Live Site URL: [baseapparel-usa](https://baseapparel-usa.netlify.app/)
 
-<!-- ## My process -->
+## My process
+- Wireframe
+- Substantiate style-guide sheet
+- begin iteration of HTML
+- Create re-usable components (buttons, header)
+- Wire email input. Email format validation with JS regex
+- Mobile responsiveness
 
 ### Built with
 
